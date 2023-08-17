@@ -18,12 +18,11 @@ const ShowContact = () => {
     setDiscrod("");
     setDesc("");
     setErrorMessage("");
-    setIsLoading(true);
     if (!address) {
       setErrorMessage("Адрес пользователя то нам нужен ...");
       return;
     }
-
+    setIsLoading(true);
     try {
       const contact = await getContactByAddress(address);
       setTelegram(contact.telegram);
