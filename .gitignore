@@ -1,0 +1,16 @@
+courseHardhatNew/node_modules
+courseHardhatNew/.env
+courseHardhatNew/coverage
+courseHardhatNew/coverage.json
+courseHardhatNew/typechain
+courseHardhatNew/typechain-types
+
+# Hardhat files
+courseHardhatNew/cache
+courseHardhatNew/artifacts
+
+#client
+client/node_modules
+client/.next
+
+
